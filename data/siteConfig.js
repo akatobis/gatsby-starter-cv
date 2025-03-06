@@ -1,35 +1,24 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Francisco!',
+  siteTitle: 'Привет,!',
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Francisco Santos',
-  twitterUsername: '_franciscodf',
-  githubUsername: 'santosfrancisco',
+  authorName: 'Москвин Алексей',
+  twitterUsername: 'twiter',
+  githubUsername: 'akatobis',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
-    In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+  authorDescription: `Параллельно с учёбой и работой, самостоятельно изучаю программирование через статьи и книги, преимущественно изучаю все, что связанно с web программированием на c#. Увлекаюсь скалолазанием, также недавно нашел для себя интерес в философии и занял 1 место на конференции в вузе. В школьные годы занимался боксом и игрой на пианино.,
   skills: [
     {
-      name: 'HTML',
+      name: '.Net',
       level: 70
     },
     {
-      name: 'CSS',
+      name: 'Angular',
       level: 60
     },
     {
-      name: 'Javascript',
+      name: 'Postgres',
       level: 50
-    },
-    {
-      name: 'NodeJs',
-      level: 40
-    },
-    {
-      name: 'React',
-      level: 60
     },
     {
       name: 'Git',
@@ -40,45 +29,16 @@ module.exports = {
   jobs: [
     /* more jobs here */
     {
-      company: "Gympass",
+      company: "Юнисистемс",
       begin: {
-        month: 'sep',
-        year: '2019'
+        month: 'ферваль',
+        year: '2023'
       },
       duration: null,
-      occupation: "Frontend developer",
-      description: "I am part of the Corporate team, responsible for the development and maintenance of the employee management platform, giving more and more autonomy to partner companies."
-  
-    },  {
-      company: "Lendico",
-      begin: {
-        month: 'apr',
-        year: '2018'
-      },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
-  
-    }, {
-      company: "Anapro",
-      begin: {
-        month: 'dec',
-        year: '2016'
-      },
-      duration: '1 yr e 5 mos',
       occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
-    }, {
-      company: "Anapro",
-      begin: {
-        month: 'set',
-        year: '2012'
-      },
-      duration: '4 yrs e 3 mos',
-      occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
+      description: "Занимаюсь web-разработкой на технологиях: ASP.NET 6.0, Angular 14, PostgreSQL, Docker, RabbitMQ. Занимался поддержкой и доработкой legacy кода на .NET framework 4.7-6.0, webforms, mssql, SharePoint."
   
-    },
+    }
   ],
   portifolio: [
     {
